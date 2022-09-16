@@ -1,0 +1,18 @@
+﻿<Window x:Class="wpbwjwl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpbwjwl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="400" ResizeMode="NoResize" MinWidth="400" MinHeight="200" MaxWidth="400" MaxHeight="200">
+    <Canvas Height="Auto" Name="Canvas1" Width="Auto">
+        <Label Canvas.Left="20" Canvas.Top="20" Height="23" Width="120" Name="Lbel1">Name:</Label>
+        <Label Canvas.Left="20" Canvas.Top="60" Height="23" Width="120" Name="Lbel2">Password:</Label>
+        <TextBox Canvas.Left="160" Canvas.Top="20" Height="23" Width="200" Name="TextBox1" />
+        <TextBox Canvas.Left="160" Canvas.Top="60" Height="23" Width="200" Name="TextBox2" />
+        <Button Canvas.Left="196" Canvas.Top="120" Height="23" Width="75" Name="Button1">OK</Button>
+        <Button Canvas.Left="283" Canvas.Top="120" Height="23" Width="75" Name="Button2">Cancel</Button>
+
+    </Canvas>
+</Window>
